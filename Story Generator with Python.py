@@ -28,11 +28,11 @@ print(random.choice(when) + ', ' + random.choice(who) + ' that lived in ' + rand
 
 #His verb was only for past time, but I change the verbs into future.
 #and also I deleted the name list because it was useless.
-
+#---------------harry potter story teller - for fans of harry potter stories--------------
 import random
-whenn = ['When the time comes', 'After a silent peacefull night', 'Last night', 'A long time ago','On 20th Jan']
+whenn = ['At a certain time', 'When the time comes', 'After the battle of hogwarts', 'After the night voldemort killed harrys parents','some day in the future']
 whoo = ['the boy', 'Hermione granger', 'Lord Voldemort', 'Dumbledore', 'Harry potter', 'Dobby the free elf']
-residencee = ['Hogwarts','The burrow', 'Number 12 Grimmauld place', ,'Godrics hollow' , '4 Privet Drive house']
+residencee = ['Hogwarts','The burrow', 'Number 12 Grimmauld place', 'Godrics hollow' , '4 Privet Drive house']
 wentt = ['Hogsmeade', 'Hogshead','ministry of magic', 'cauldron of thought', 'Diagon Alley', 'Ollivanders wand shop', 'Thw quidditch stadium', 'hogwarts library', 'Azkaban prison', 'Forbidden forest', 'hodwarts common room']
-happenedd = ['must die','will fight', 'will find the cure', 'will solve a mistery', 'will cast a dark magic']
-print(random.choice(whenn) + ', ' + random.choice(whoo) + ' that lived in ' + random.choice(residencee) + ', went to the ' + random.choice(wentt) + ' and ' + random.choice(happenedd))
+happenedd = ['must die','will fight', 'will trust the face in the mirror', 'will save so many lives', 'will sacrifice a lot of memory', ]
+print(random.choice(whenn) + ', ' + random.choice(whoo) + ' that lives in ' + random.choice(residencee) + ', will go to the ' + random.choice(wentt) + ' and ' + random.choice(happenedd))
