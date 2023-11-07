@@ -35,63 +35,63 @@
 
 #Now I'm modifying Project for Calculating BMR & Daily calorie intake for each person:
 
-Height=float(input("Enter your height in centimeters: "))
-Weight=float(input("Enter your Weight in Kg: "))
-Age=int(input("Enter your Age:"))
-Gender=str(input("Enter your Gender:")).lower()
+Height = float(input("Enter your height in centimeters: "))
+Weight = float(input("Enter your Weight in Kg: "))
+Age = int(input("Enter your Age: "))
+Gender = str(input("Enter your Gender: ")).lower()
 
 print("1-Sedentary(never exercised)",
 	  "2-Somewhat active(moderate activity 3-5 times a week)",
 	  "3-very active(vigorous exercise 5-6 days a week)",
 	  "4-extremely active(professional athleth)")
-Activity=str(input("Enter yout acivity level between 1 to 4:"))
+Activity=str(input("Enter yout acivity level between 1 to 4: "))
 if Gender == 'male':
     if Activity == '1':
         BMR = (10 * Weight) + (6.25 * Height) - (5 * Age) + 5
-        Calory = BMR*1.1
-        print("your Basal Metabolic Rate is:",BMR)
-        print("Your daily calorie intake is:", Calory)
-    elif Activity=='2':
+        Calorie = BMR*1.1
+        print("your Basal Metabolic Rate is:", BMR)
+        print("Your daily calorie intake is:", Calorie)
+    elif Activity == '2':
         BMR = (10 * Weight) + (6.25 * Height) - (5 * Age) + 5
-        Calory= BMR*1.2
-        print("your Basal Metabolic Rate is:",BMR)
-        print("Your daily calorie intake is:", Calory)
-    elif Activity=='3':
+        Calorie = BMR*1.2
+        print("your Basal Metabolic Rate is:", BMR)
+        print("Your daily calorie intake is:", Calorie)
+    elif Activity == '3':
         BMR= (10*Weight)+(6.25*Height)-(5*Age)+5
-        Calory= BMR*1.3
-        print("your Basal Metabolic Rate is:",BMR)
-        print("Your daily calorie intake is:", Calory)
-    elif Activity=='4':
-        BMR= (10*Weight)+(6.25*Height)-(5*Age)+5
-        Calory= BMR*1.4
-        print("your Basal Metabolic Rate is:",BMR)
-        print("Your daily calorie intake is:", Calory)
+        Calorie = BMR*1.3
+        print("your Basal Metabolic Rate is:", BMR)
+        print("Your daily calorie intake is:", Calorie)
+    elif Activity == '4':
+        BMR = (10*Weight)+(6.25*Height)-(5*Age)+5
+        Calorie = BMR*1.4
+        print("your Basal Metabolic Rate is:", BMR)
+        print("Your daily calorie intake is:", Calorie)
     else:
-        print("please insert your activity level between number 1 to 4:")
+        print("please insert your activity level between number 1 to 4: ")
         print("1-Sedentary(never exercised)","2-Somewhat  active(moderate activity 3-5 times a week)","3-very active(vigorous exercise 5-6 days a week)","4-extremely active(professional athleth)")
 
 elif Gender == 'female':
     BMR = (10 * Weight) + (6.25 * Height) - (5 * Age) -161
     if Activity == '1':
-        Calory = BMR*1.1
+        Calorie = BMR*1.1
         print("your Basal Metabolic Rate is:", BMR)
-        print("Your daily calorie intake is:", Calory)
+        print("Your daily calorie intake is:", Calorie)
     elif Activity == '2':
-        Calory = BMR*1.2
-        print("your Basal Metabolic Rate is:",BMR)
-        print("Your daily calorie intake is:", Calory)
+        Calorie = BMR*1.2
+        print("your Basal Metabolic Rate is:", BMR)
+        print("Your daily calorie intake is:", Calorie)
     elif Activity == '3':
-        Calory= BMR*1.3
-        print("your Basal Metabolic Rate is:",BMR)
-        print("Your daily calorie intake is:", Calory)
+        Calorie = BMR*1.3
+        print("your Basal Metabolic Rate is:", BMR)
+        print("Your daily calorie intake is:", Calorie)
     elif Activity == '4':
-        Calory= BMR*1.4
-        print("your Basal Metabolic Rate is:",BMR)
-        print("Your daily calorie intake is:", Calory)
+        Calorie = BMR*1.4
+        print("your Basal Metabolic Rate is:", BMR)
+        print("Your daily calorie intake is:", Calorie)
     else:
-        print("please insert your activity level between number 1 to 4:")
+        print("please insert your activity level between number 1 to 4: ")
         print("1-Sedentary(never exercised)","2-Somewhat active(moderate activity 3-5 times a week)","3-very active(vigorous exercise 5-6 days a week)","4-extremely active(professional athleth)")
 else:
-    print("Plese choose your gender between male or female:")
+    print("Plese choose your gender between male or female: ")
 
 
