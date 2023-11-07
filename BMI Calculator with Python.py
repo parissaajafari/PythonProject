@@ -30,7 +30,7 @@
 #I hope you liked this article on how to calculate Body Mass Index/BMI with Python programming language.
 #---------------------Aman Kharwal
 
-#now I want to calculate the BMR and also amount of callery we should intake daily:
+#now I want to calculate the BMR and also amount of calorie we should intake daily:
 
 
 Height=float(input("Enter your height in centimeters: "))
