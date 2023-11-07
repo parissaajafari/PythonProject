@@ -12,12 +12,4 @@ print(p)
 
 
 print("We found the list of your passwords and we want a certain password among them.")
-Password = input("Enter first name of your password: ").strip()
-
-user_input = str(input("Enter a list of your passwords: "))
-text = user_input.split()
-a = " "
-for i in text:
-    a = a+str(i[0]).upper()
-    if a == 'password':
-        print(f"we found your password. your password is{a}")
+........
