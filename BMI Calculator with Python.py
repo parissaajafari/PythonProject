@@ -33,7 +33,7 @@
 #------------------
 #------------
 
-#Now I'm modifying Project for Calculating BMR & Daily calorie intake of each person:
+#Now I'm modifying Project for Calculating BMR & Daily calorie intake for each person:
 
 Height=float(input("Enter your height in centimeters: "))
 Weight=float(input("Enter your Weight in Kg: "))
