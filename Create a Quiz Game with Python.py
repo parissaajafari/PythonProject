@@ -54,7 +54,7 @@
 
 #Modifying version:
 #--------------------special version for harry potter fans---------
-#------------
+#------------check to see if your friend is a real fan or not? hahahaha--------
 
 
 def check_guess(guess, answer):
