@@ -23,7 +23,12 @@
 
 #-----------------Aman Kharwal Projects
 
-#----How to convert cantigrad to kelvin
+#--------------------------------------------------
+#The original project didnt take input from client so it didn't work well, so I changed it:
+#And I'm modifying project with:
+#----How to convert Centigrade to Kelvin & Kelvin to Centigrade?
+
+
 def convert(s):
     c = float(s)
     k = (c + 273)
