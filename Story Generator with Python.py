@@ -26,6 +26,8 @@ print(random.choice(when) + ', ' + random.choice(who) + ' that lived in ' + rand
 
 #Aman Kharwal project--------------
 
+#I'm modifying it like this:
+
 #His verb was only for past time, but I change the verbs into future.
 #and also I deleted the name list because it was useless.
 #---------------harry potter story teller - for fans of harry potter stories--------------
