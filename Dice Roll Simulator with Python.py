@@ -41,7 +41,7 @@
 #--------------------------
 #----------------
 #I'm modyfing this project to this one:
-#___What if we had 10 diamond with 1000 faces and we want to see how many faces it diamond has?______
+#___What if we had 10 diamond with 1000 faces and we want to see how many faces each diamond has?______
 
 
 import random
