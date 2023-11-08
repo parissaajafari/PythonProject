@@ -53,91 +53,36 @@
 
 #---------------------------
 
+#----------------------------#another version that I'm modifying:
 
-#import random
-#choices = ["Rainy Day", "Sunny Day", "Cloudy Day","Hot Day"]
-#computer = random.choice(choices)
-#Student_luck = False
+#I changed the game into some Measuring luck game, and also I notices that in original game computer guesses in one round
+#wouldnt change, I tried to fix that problem so I use to put player input first and the coputer random choices went after that.
+#and magicaly the original game's problem solved and my new modifying version worked too:
 
-#Student_luck = 0
-#while True:
-
-#    player = input("Warm clothes and Umbrella, Cool Clothes and Sunglasses?").capitalize()
-
-#    if player == "Warm clothes and Umbrella":
-#        if computer == "Rainy Day":
-#            print("You are lucky, You wont catch cold in ", computer, "because of your", player)
-#            Student_luck+=1
-#        elif computer == "Sunny Day":
-#            print("You are not lucky today, You'll sweat in ", computer, "because of your", player)
-#            Student_luck-=1
-#        elif computer == "Cloudy Day":
-#            print("You are lucky, You wont catch cold in ", computer, "because of your", player)
-#            Student_luck+=1
-#        elif computer == "Hot Day":
-#            print("You are not lucky today, You'll sweat in ", computer, "because of your", player)
-#            Student_luck+=1
-#    elif player == "Cool Clothes and Sunglasses":
-#        if computer == "Rainy Day":
-#            print("You are not lucky, You will catch cold in ", computer, "because of your", player)
-#            Student_luck-=1
-#        elif computer == "Sunny Day":
-#            print("You are lucky today, You wont sweat in ", computer, "because of your", player)
-#            Student_luck+=1
-#        elif computer == "Cloudy Day":
-#            print("You are not lucky, You will catch cold in ", computer, "because of your", player)
-#            Student_luck-=1
-#        elif computer == "Hot Day":
-#            print("You are lucky today, You wont sweat in ", computer, "because of your", player)
- #           Student_luck+=1
- #   elif player=='End':
- #       print("Do you wanna know how lucky you are?")
- #       print(f"You were lucky:{Student_luck} times")
- #       break
-
-
-#----------------------------
-#another version that I'm modifying:
 
 import random
-choices = ["Rainy Day", "Sunny Day", "Cloudy Day","Hot Day"]
-computer = random.choice(choices)
 #Student_luck = False
 
 Student_luck = 0
 while True:
-
-    player = input("Warm clothes and Umbrella, Cool Clothes and Sunglasses?").capitalize()
-
-    if player == "Warm clothes and Umbrella" and computer == "Rainy Day":
+    print("You must go to class but you dont know about the weather, what would you choose to wear?")
+    player = input("Cool clothes, Warm clothes?").capitalize()
+    choices = ["Rainy Day", "Sunny Day"]
+    computer = random.choice(choices)
+    if player == "Warm clothes" and computer == "Rainy Day":
         print(f"You are lucky, You wont catch cold in ", computer, "because of your", player)
         Student_luck+=1
-    elif player == "Warm clothes and Umbrella" and computer == "Sunny Day":
+    elif player == "Warm clothes" and computer == "Sunny Day":
         print(f"You are not lucky today, You'll sweat in ", computer, "because of your", player)
         Student_luck-=1
-    elif player == "Warm clothes and Umbrella" and computer == "Cloudy Day":
-        print(f"You are lucky, You wont catch cold in ", computer, "because of your", player)
-        Student_luck+=1
-    elif player == "Warm clothes and Umbrella" and computer == "Hot Day":
-        print(f"You are not lucky today, You'll sweat in ", computer, "because of your", player)
-        Student_luck+=1
-    elif player == "Cool Clothes and Sunglasses" and computer == "Rainy Day":
+    elif player == "Cool clothes" and computer == "Rainy Day":
         print(f"You are not lucky, You will catch cold in ", computer, "because of your", player)
         Student_luck-=1
-    elif player == "Cool Clothes and Sunglasses" and computer == "Sunny Day":
-        print(f"You are lucky today, You wont sweat in ", computer, "because of your", player)
-        Student_luck+=1
-    elif player == "Cool Clothes and Sunglasses" and computer == "Cloudy Day":
-        print(f"You are not lucky, You will catch cold in ", computer, "because of your", player)
-        Student_luck-=1
-    elif player == "Cool Clothes and Sunglasses" and computer == "Hot Day":
+    elif player == "Cool clothes" and computer == "Sunny Day":
         print(f"You are lucky today, You wont sweat in ", computer, "because of your", player)
         Student_luck+=1
     elif player=='End':
         print(f"Do you wanna know how lucky you are?")
         print(f"You were lucky:{Student_luck} times")
         break
-#---------------------------
-#another version
-
 
