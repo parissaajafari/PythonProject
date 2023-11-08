@@ -10,14 +10,22 @@
 #remove white space if any. Then we are finding the index of ‘@’ symbol of the user input. Then we store the index into
 #a variable known as domain_name to split the email into two parts; the user name and the domain.
 
-email = input("Enter Your Email: ").strip()
-username = email[:email.index("@")]
-domain_name = email[email.index("@")+1:]
-format_ = (f"Your user name is '{username}' and your domain is '{domain_name}'")
-print(format_)
+#email = input("Enter Your Email: ").strip()
+#username = email[:email.index("@")]
+#domain_name = email[email.index("@")+1:]
+#format_ = (f"Your user name is '{username}' and your domain is '{domain_name}'")
+#print(format_)
 #Finally, we are just formatting to print the output. The above code can be enhanced with more ideas depending on your
 #needs. As a beginner, you must try these types of programs to improve your coding skills. In the long run, it will also
 #help you build your algorithms and increase your ability to think logically.
 
 
 # Aman Kharwal project--------------
+#-------------------------------
+#I'm modifying this project making a time teller:
+
+time = input("Enter the time 00:00: ").strip()
+hour = time[:time.index(":")]
+minutes = time[time.index(":")+1:]
+format_ = (f"The time is '{hour}' and '{minutes}' minutes now")
+print(format_)
