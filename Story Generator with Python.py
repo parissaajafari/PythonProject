@@ -41,4 +41,5 @@ print(random.choice(whenn) + ', ' + random.choice(whoo) + ' that lives in ' + ra
 
 
 #khob hala dar edameye in majera man mikham juri barname pish bere ke betunim entekhab dashte bashim va dastan haye motefaveti revayat beshe
-
+#ye zare manteghesh taghir mikone vali khob dar nahayat khoruji ke behemun mide kheili jaleb khahad bud
+#
