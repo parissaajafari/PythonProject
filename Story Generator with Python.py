@@ -5,14 +5,14 @@
 #Our task is to generate a random story every time the user runs the program. I will first store the parts of the stories
 #in different lists, then the Random module can be used to select the random parts of the story stored in different lists:
 
-import random
-when = ['A few years ago', 'Yesterday', 'Last night', 'A long time ago','On 20th Jan']
-who = ['a rabbit', 'an elephant', 'a mouse', 'a turtle','a cat']
-name = ['Ali', 'Miriam','daniel', 'Hoouk', 'Starwalker']
-residence = ['Barcelona','India', 'Germany', 'Venice', 'England']
-went = ['cinema', 'university','seminar', 'school', 'laundry']
-happened = ['made a lot of friends','Eats a burger', 'found a secret key', 'solved a mistery', 'wrote a book']
-print(random.choice(when) + ', ' + random.choice(who) + ' that lived in ' + random.choice(residence) + ', went to the ' + random.choice(went) + ' and ' + random.choice(happened))
+#import random
+#when = ['A few years ago', 'Yesterday', 'Last night', 'A long time ago','On 20th Jan']
+#who = ['a rabbit', 'an elephant', 'a mouse', 'a turtle','a cat']
+#name = ['Ali', 'Miriam','daniel', 'Hoouk', 'Starwalker']
+#residence = ['Barcelona','India', 'Germany', 'Venice', 'England']
+#went = ['cinema', 'university','seminar', 'school', 'laundry']
+#happened = ['made a lot of friends','Eats a burger', 'found a secret key', 'solved a mistery', 'wrote a book']
+#print(random.choice(when) + ', ' + random.choice(who) + ' that lived in ' + random.choice(residence) + ', went to the ' + random.choice(went) + ' and ' + random.choice(happened))
 
 #I first imported the random module and then I created parts of the stories in different lists, then I only selected the
 #parts of the lists at random to generate a random story.
@@ -38,3 +38,7 @@ residencee = ['Hogwarts','The burrow', 'Number 12 Grimmauld place', 'Godrics hol
 wentt = ['Hogsmeade', 'Hogshead','ministry of magic', 'cauldron of thought', 'Diagon Alley', 'Ollivanders wand shop', 'Thw quidditch stadium', 'hogwarts library', 'Azkaban prison', 'Forbidden forest', 'hodwarts common room']
 happenedd = ['must die','will fight', 'will trust the face in the mirror', 'will save so many lives', 'will sacrifice a lot of memory', ]
 print(random.choice(whenn) + ', ' + random.choice(whoo) + ' that lives in ' + random.choice(residencee) + ', will go to the ' + random.choice(wentt) + ' and ' + random.choice(happenedd))
+
+
+#khob hala dar edameye in majera man mikham juri barname pish bere ke betunim entekhab dashte bashim va dastan haye motefaveti revayat beshe
+
